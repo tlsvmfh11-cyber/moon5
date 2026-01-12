@@ -19,7 +19,7 @@ export default function Intro() {
               강남 달토 하이퍼블릭이<br />
               어떤 구조인지 먼저 설명드립니다
             </h2>
-            <div className="space-y-6 text-gray-400 text-lg font-light leading-relaxed">
+            <div className="space-y-6 text-gray-400 text-lg font-normal leading-relaxed">
               <p>
                 강남 달토는 흔히 <strong className="text-white font-medium">달리는토끼, 런닝레빗, 달토</strong>라는 이름으로 불리는 하이퍼블릭 업종입니다.
                 이 업종의 핵심은 분위기나 인테리어보다 <strong className="text-white font-medium">구조</strong>에 있습니다.
@@ -97,7 +97,7 @@ export default function Intro() {
               현장에서 직접 안내하면서<br />
               느낀 점을 말씀드립니다
             </h2>
-            <div className="space-y-6 text-gray-400 text-lg font-light leading-relaxed">
+            <div className="space-y-6 text-gray-400 text-lg font-normal leading-relaxed">
               <p>
                 강남 달토 문의를 받다 보면 처음부터 조심스럽게 묻는 분들이 많습니다.
               </p>

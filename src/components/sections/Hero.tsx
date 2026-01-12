@@ -33,12 +33,12 @@ export default function Hero() {
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white mb-6 leading-tight">
             강남 달토 예약안내
-            <span className="block text-2xl md:text-3xl font-light text-white/80 mt-4">
+            <span className="block text-2xl md:text-3xl font-normal text-white/80 mt-4">
               달리는토끼 · 런닝레빗
             </span>
           </h1>
 
-          <p className="text-gray-300 max-w-2xl mx-auto text-lg md:text-xl font-light leading-relaxed mb-12 drop-shadow-md">
+          <p className="text-gray-300 max-w-2xl mx-auto text-lg md:text-xl font-normal leading-relaxed mb-12 drop-shadow-md">
             높은 출근율과 많은 룸을 기반으로<br className="hidden md:block"/>
             합리적인 가격 구조를 운영합니다.<br/>
             현장에서 실제 안내하는 방식 그대로 정리했습니다.
