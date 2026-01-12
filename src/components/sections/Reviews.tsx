@@ -22,8 +22,18 @@ const reviews = [
 
 export default function Reviews() {
   return (
-    <section id="reviews" className="py-32 bg-brand-black">
-      <div className="container mx-auto px-6">
+    <section id="reviews" className="py-32 relative overflow-hidden">
+      {/* Background with Blur */}
+      <div className="absolute inset-0 z-0">
+        <img
+          src="/images/dalto5.jpg"
+          alt="강남 달토 후기 배경"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-brand-black/80 backdrop-blur-sm" />
+      </div>
+
+      <div className="container mx-auto px-6 relative z-10">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}

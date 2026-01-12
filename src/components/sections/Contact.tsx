@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Phone, MessageCircle, Send, Car, Clock, Users } from 'lucide-react';
+import { Phone, MessageCircle, Send, Car, Clock, Users, MapPin } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -52,6 +52,12 @@ export default function Contact() {
             강남 달토는 달리는토끼, 런닝레빗으로 알고 있던 분들도<br />
             편하게 문의 주셔도 되는 곳입니다.
           </p>
+
+          {/* 주소 안내 */}
+          <div className="flex items-center justify-center gap-3 text-gray-400 mb-12">
+            <MapPin className="w-5 h-5 text-accent-cyan" />
+            <span>서울 강남구 역삼동 604-11 삼정호텔</span>
+          </div>
 
           {/* 연락 버튼 */}
           <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-20">

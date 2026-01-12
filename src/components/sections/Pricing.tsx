@@ -7,7 +7,7 @@ export default function Pricing() {
       {/* Background with Blur */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/pricing.png"
+          src="/images/dalto4.jpg"
           alt="강남 달토 가격 안내 배경"
           className="w-full h-full object-cover"
         />

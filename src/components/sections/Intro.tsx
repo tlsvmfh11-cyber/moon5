@@ -52,7 +52,7 @@ export default function Intro() {
           >
             <div className="relative aspect-[4/5] overflow-hidden group">
               <img
-                src="/images/intro.jpg"
+                src="/images/dalto2.jpg"
                 alt="강남 달토 인테리어"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale hover:grayscale-0"
               />
@@ -73,7 +73,7 @@ export default function Intro() {
           >
             <div className="relative aspect-video overflow-hidden">
                <img
-                src="/images/room.jpg"
+                src="/images/dalto3.jpg"
                 alt="강남 달토 룸 분위기"
                 className="w-full h-full object-cover opacity-80"
               />

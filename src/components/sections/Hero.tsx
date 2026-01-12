@@ -14,7 +14,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-black/40 z-10" />
         <div className="absolute inset-0 bg-gradient-to-t from-brand-black via-transparent to-brand-black/30 z-10" />
         <img
-          src="/images/hero.jpg"
+          src="/images/dalto1.jpg"
           alt="강남 달토 하이퍼블릭 프리미엄 라운지"
           className="w-full h-[120%] object-cover object-center"
         />
