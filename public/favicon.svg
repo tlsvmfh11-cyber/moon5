@@ -1,0 +1,26 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="neon_gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00fff2" />
+      <stop offset="100%" stop-color="#7000ff" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <circle cx="32" cy="32" r="32" fill="#050505" />
+  
+  <!-- Moon Shape (Crescent) -->
+  <path d="M42 12C35 12 28 16 24 22C20 28 20 36 24 42C28 48 35 52 42 52C40 52 38 52 36 52C25 52 16 43 16 32C16 21 25 12 36 12C38 12 40 12 42 12Z" 
+        fill="url(#neon_gradient)" 
+        filter="url(#glow)" />
+        
+  <!-- Small Star Accent -->
+  <circle cx="48" cy="20" r="2" fill="#fff" filter="url(#glow)" />
+</svg>
