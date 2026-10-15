@@ -3,14 +3,20 @@
 @theme {
   --color-brand-black: #050505;
   --color-brand-dark: #0a0a0a;
+  --color-holo-black: #050505;
+  --color-holo-dark: #0a0a0a;
   
-  /* Cinematic Accents */
+  /* Cinematic & Neon Accents */
   --color-accent-purple: #7000ff;
   --color-accent-cyan: #00fff2;
   --color-accent-gold: #ffd700;
+
+  --color-neon-purple: #7000ff;
+  --color-neon-cyan: #00fff2;
+  --color-neon-gold: #ffd700;
   
   --font-pretendard: 'Pretendard', sans-serif;
-  --font-display: 'Montserrat', sans-serif; /* For impactful English headings */
+  --font-display: 'Montserrat', sans-serif;
 
   --animate-fade-in-up: fadeInUp 1s ease-out forwards;
   --animate-scale-in: scaleIn 1.2s ease-out forwards;

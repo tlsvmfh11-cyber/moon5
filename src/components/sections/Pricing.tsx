@@ -69,20 +69,33 @@ export default function Pricing() {
               <div className="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 bg-accent-gold/20 blur-[100px] rounded-full pointer-events-none" />
 
               <h3 className="text-2xl font-bold text-white mb-2">달토 견적 안내</h3>
-              <p className="text-gray-400 mb-10 text-sm">문의 시점 기준 정확한 가격 안내</p>
+              <p className="text-gray-400 mb-8 text-sm">정찰제 기준 투명하고 정직한 가격 안내</p>
 
-              <div className="space-y-8">
+              <div className="space-y-6">
                 <div className="flex justify-between items-end border-b border-white/10 pb-4">
                   <span className="text-gray-300 text-lg">기본 주대</span>
-                  <span className="text-2xl font-bold text-white">문의 시 안내</span>
+                  <div className="text-right">
+                    <span className="text-2xl font-bold text-white">160,000</span>
+                    <span className="text-sm text-gray-400 ml-1">원</span>
+                  </div>
                 </div>
                 <div className="flex justify-between items-end border-b border-white/10 pb-4">
-                  <span className="text-gray-300 text-lg">TC / 룸비</span>
-                  <span className="text-2xl font-bold text-white">정찰제 운영</span>
+                  <span className="text-gray-300 text-lg">R/T (룸비)</span>
+                  <div className="text-right">
+                    <span className="text-2xl font-bold text-white">50,000</span>
+                    <span className="text-sm text-gray-400 ml-1">원</span>
+                  </div>
                 </div>
-                <div className="flex justify-between items-end pb-4">
+                <div className="flex justify-between items-end border-b border-white/10 pb-4">
+                  <span className="text-gray-300 text-lg">T/C</span>
+                  <div className="text-right">
+                    <span className="text-2xl font-bold text-white">120,000</span>
+                    <span className="text-sm text-gray-400 ml-1">원</span>
+                  </div>
+                </div>
+                <div className="flex justify-between items-end pb-2">
                   <span className="text-gray-300 text-lg">발렛 / 픽업</span>
-                  <span className="text-accent-gold font-bold">서비스 가능</span>
+                  <span className="text-accent-gold font-bold text-lg">서비스 지원</span>
                 </div>
               </div>
 

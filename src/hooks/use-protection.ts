@@ -20,12 +20,11 @@ export function useProtection() {
 
     const handleCopy = (e: ClipboardEvent) => {
       e.preventDefault();
-      alert('콘텐츠 복사가 제한되어 있습니다.');
     };
 
     const handleSelectStart = (e: Event) => {
-        e.preventDefault();
-    }
+      e.preventDefault();
+    };
 
     document.addEventListener('contextmenu', handleContextMenu);
     document.addEventListener('keydown', handleKeyDown);
