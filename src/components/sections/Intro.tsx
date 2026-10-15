@@ -54,7 +54,7 @@ export default function Intro() {
               <img
                 src="/images/dalto2.jpg"
                 alt="강남 달토 인테리어"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale hover:grayscale-0"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 border border-white/10" />
             </div>
